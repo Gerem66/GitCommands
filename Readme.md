@@ -41,7 +41,8 @@
 ### Modifications
 | Commande | Détails |
 |-|-|
-| `git reset --hard master~X` | Permet de charger le Xe dernier commit (master~1 va charger la branche master en ignorant le dernier commit) |
+| `git reset --hard master~X` | Permet de charger le Xe dernier commit (master~1 va charger la branche master en ignorant le dernier commit) Permet également d'annuler des commits non pushés |
+| `git revert master` | Permet de faire l'inverse du dernier commit (puis push pour l'annuler) |
 | `git commit --amend` | Permet de modifier le message du dernier commit effectué |
 
 ### Affichage
