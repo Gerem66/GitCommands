@@ -2,14 +2,15 @@
 
 ## Configuration de Git
 * Pour afficher les couleurs
-    - git config --global color.diff auto
-    - git config --global color.status auto
-    - git config --global color.branch auto
+    - `git config --global color.diff auto`
+    - `git config --global color.status auto`
+    - `git config --global color.branch auto`
+    - `git config --global core.autocrlf true` (Pour ignorer les fins de ligne)
 * Se logger
-    - git config --global user.name ___
-    - git config --global user.email ___
+    - `git config --global user.name ___`
+    - `git config --global user.email ___`
 * Pour les alias
-    - nano ~/.gitconfig
+    - `nano ~/.gitconfig`
     - Ajouter les lignes suivantes
         [alias]
         ci = commit
